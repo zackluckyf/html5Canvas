@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="c" width="500" height="400"></canvas>
+    <div class="user-inputs">
+        <h3>Enter Upper Text</h3>
+        <input type="text" name="upperText" id='upperText' value="" onkeypress="writeUpperText()" />
+        <h3>Enter Lower Text</h3>
+        <input type="text" name="lowerText" id='lowerText' value="" onkeypress="writeLowerText()" />
+        <button style="display:block; margin-top: 18px" type="button" id='clearCanvas' name="button" onclick="clearCanvas()">Clear Canvas</button>
+        <script src="script.js" charset="utf-8"></script>
+    </div>
+</body>
+
+</html>
